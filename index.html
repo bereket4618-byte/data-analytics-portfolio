@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket Anteneh | Data Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1120;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            background: #111a2e;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #b8c4d6;
+            max-width: 600px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        section {
+            padding: 65px 8%;
+        }
+
+        section h2 {
+            color: #38bdf8;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 18px;
+        }
+
+        .skill {
+            background: #17243a;
+            padding: 25px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .about {
+            text-align: center;
+            max-width: 750px;
+            margin: auto;
+            color: #b8c4d6;
+        }
+
+        .project {
+            background: #17243a;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111a2e;
+            color: #b8c4d6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Bereket.</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Hello, I'm <span>Bereket Anteneh</span></h1>
+
+        <p>
+            Aspiring Data Analyst and Python Developer.
+            I'm learning Python, SQL, Data Analysis,
+            and Data Science to solve real-world problems.
+        </p>
+
+        <a href="#projects" class="btn">Explore My Projects</a>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p class="about">
+            I'm an aspiring data professional interested
+            in programming, databases, and data analysis.
+            I enjoy learning new technologies and building
+            practical projects to improve my skills.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Technical Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Python</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Data Analysis</div>
+            <div class="skill">Data Science</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Projects Coming Soon</h3>
+            <p>
+                I'm currently learning and building
+                practical projects. Check back soon!
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Bereket Anteneh | My Portfolio</p>
+    </footer>
+
+</body>
+</html>
